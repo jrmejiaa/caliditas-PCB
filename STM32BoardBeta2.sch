@@ -24417,7 +24417,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="U1" library="smr32f410rbt6" deviceset="STM32F410R3" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0402" value="47"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0201" value="100n"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="1uf"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
@@ -24450,7 +24450,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="100K"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C29" library="rcl" deviceset="C-EU" device="C0201" value="100n"/>
+<part name="C29" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
