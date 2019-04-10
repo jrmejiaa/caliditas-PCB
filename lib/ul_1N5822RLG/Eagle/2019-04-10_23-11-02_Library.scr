@@ -1,0 +1,107 @@
+# Created by Ultra Librarian Gold 8.3.111 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CASE_267-05.pac';
+Change Drill 61;
+Pad '1' Square 0 81 R0 (-784 0);
+Change Drill 61;
+Pad '2' Round 0 81 R180 (0 0);
+Layer 39;
+Wire 6 (-834 -50) (-834 50);
+Wire 6 (-834 50) (-589 50);
+Wire 6 (-195 50) (50 50);
+Wire 6 (50 50) (50 -50);
+Wire 6 (50 -50) (-195 -50);
+Wire 6 (-589 -50) (-834 -50);
+Wire 6 (-589 -114) (-589 -50);
+Wire 6 (-589 50) (-589 114);
+Wire 6 (-589 114) (-195 114);
+Wire 6 (-195 114) (-195 50);
+Wire 6 (-195 -50) (-195 -114);
+Wire 6 (-195 -114) (-589 -114);
+Layer 39;
+Change Spacing 50;
+Change Pour solid;
+Polygon 6  (-834.5 -50.5) (-834.5 50.5) (-589 50.5) (-589 114.5) (-195 114.5) \
+    (-195 50.5) (50.5 50.5) (50.5 -50.5) (-195 -50.5) (-195 -114.5) (-589 -114.5) \
+    (-589 -50.5) (-834.5 -50.5);
+Layer 21;
+Wire 6 (-840 0) (-890 0);
+Wire 6 (-880 25) (-880 -25);
+Wire 6 (-880 0) (-850 25);
+Wire 6 (-880 0) (-850 20);
+Wire 6 (-880 0) (-850 15);
+Wire 6 (-880 0) (-850 10);
+Wire 6 (-880 0) (-850 5);
+Wire 6 (-880 0) (-850 -25);
+Wire 6 (-880 0) (-850 -20);
+Wire 6 (-880 0) (-850 -15);
+Wire 6 (-880 0) (-850 -10);
+Wire 6 (-880 0) (-850 -5);
+Wire 6 (-850 25) (-850 -25);
+Wire 6 (-584 -110) (-200 -110);
+Wire 6 (-200 -110) (-200 110);
+Wire 6 (-200 110) (-584 110);
+Wire 6 (-584 110) (-584 -110);
+Layer 51;
+Wire 6 (-840 0) (-890 0);
+Wire 6 (-880 25) (-880 -25);
+Wire 6 (-880 0) (-850 25);
+Wire 6 (-880 0) (-850 20);
+Wire 6 (-880 0) (-850 15);
+Wire 6 (-880 0) (-850 10);
+Wire 6 (-880 0) (-850 5);
+Wire 6 (-880 0) (-850 -25);
+Wire 6 (-880 0) (-850 -20);
+Wire 6 (-880 0) (-850 -15);
+Wire 6 (-880 0) (-850 -10);
+Wire 6 (-880 0) (-850 -5);
+Wire 6 (-850 25) (-850 -25);
+Wire 6 (-784 0) (-579 0);
+Wire 6 (0 0) (-205 0);
+Wire 6 (-579 -104) (-205 -104);
+Wire 6 (-205 -104) (-205 104);
+Wire 6 (-205 104) (-579 104);
+Wire 6 (-579 104) (-579 -104);
+Layer 23;
+Wire 6 (-794 0) (-774 0);
+Wire 6 (-784 -10) (-784 10);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-521 -25);
+Layer 27;
+
+Edit '1N5822RLG.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Both 0 (100 0)
+Pin '2' Pas None Middle R180 Both 0 (1700 0)
+Wire 6 (300 200) (300 -200);
+Wire 6 (300 -200) (1500 -200);
+Wire 6 (1500 -200) (1500 200);
+Wire 6 (1500 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (714 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (689 259);
+
+Edit '1N5822RLG.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add 1N5822RLG 'A' Next  0 (0 0);
+Package 'CASE_267-05';
+Technology '';
+Attribute Vendor 'ON Semiconductor';
+Attribute Manufacturer_Part_Number '1N5822RLG';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
